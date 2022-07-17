@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+.container-fluid a{
+    color:aliceblue;
+}
+.container-fluid #special
+{
+    width:80px;
+    margin-right: 5px;
+}
+.container-fluid a:hover{
+    color: antiquewhite;
+}
+#logo{
+    size:20px;
+}
+#sitename{
+    font-size: large;
+    font-weight: 600;  
+    letter-spacing: 2px;
+}
+#sitename:hover{
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#links_a{
+    font-size: 20px;
+}
+#links_a:hover{
+    color: black;
+}
+.container h2{
+    font-size: x-large;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px 40px;
+    gap: 10px;
+    /* background-color: blue; */
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+    gap: 15px;
+    padding: 15px;
+    overflow: hidden;
+    /* align-items: center; */
+    /* display: flex;
+    flex-direction: row; */
+}
+.info-grid img{
+    max-height: 65vh;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+.table-grid{
+    grid-column: span 3;
+    /* border: 2px solid black; */
+}
+.details1 p{
+    font-size: large;
+    margin: 10px;
+}
+#logout{
+    margin-right: 10px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+#logout:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
