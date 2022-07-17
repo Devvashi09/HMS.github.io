@@ -27,7 +27,7 @@
 }
 
 body{
-    background-image: url("/img/bg2.png");
+    background-image: url("logos/plus.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -192,14 +192,14 @@ input {
 .box{
 	height: 480px;
     width: 538px;
-    background: url("/img/lg2.png") no-repeat;
+    background: url("logos/lg2.png") no-repeat;
     background-size: cover;
     /* border: 6px solid #333; */
     /* margin: 20px; */
 }
 
 .body_1{
-	background-image: url("/img/plus.png");
+	background-image: url("/logos/plus.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
